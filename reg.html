@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="http://www.register.com">
+        <meta property="og:site_name" content="registration">
+        <link rel="stylesheet" href="css/reg.css">
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <div class="regform"><h1>Registration </h1></div>
+        <div class="main">
+            <form>
+            <div id="name">
+                <h2 class="name">Name</h2>
+                <input class="firstname" type="text" name="first_name"><br>
+                <label class="firstlabel">first name</label>
+                <input class="lastname" type="text" name="last_name">
+                <label class="lastlabel">last name</label>
+            </div>
+
+            <h2 class="name">Company</h2>
+            <input class="company" type="text" name="company">
+
+            <h2 class="name">Email</h2>
+            <input class="email" type="email" name="email">
+
+            <h2 class="name">Phone</h2>
+            <input class="code" type="text" name="area_code">
+            <label class="area-code">Area code</label>
+            <input class="number" type="text" name="phone">
+            <label class="phone-number">Phone Number</label>
+
+            <h2 class="name">Course</h2>
+            <select class="option" name="subject">
+                <option disabled="disabled" selected="selected">--Choose Option</option>
+                <option>Front End engineering</option>
+                <option>Back End engineering</option>
+                <option>Mobile app development</option>
+                <option>UI/UX design</option>
+                <option>4D Animation</option>
+            </select>
+
+            <h2 id="student">Are you a beginner?</h2>
+
+            <label class="radio">
+                <input class="radio-one" type="radio" name="">
+                <span class="checkmark"></span>
+                Yes
+            </label>
+
+            
+            <label class="radio">
+                <input class="radio-one" type="radio" name="">
+                <span class="checkmark"></span>
+                No
+            </label>
+
+            <button type="submit">Register</button>
+            </form>
+        </div>
+    </body>
+</html>
